@@ -13,6 +13,7 @@
 
 ```bash
 cd backend
+pip install -r requirements.txt
 export OPENAI_API_KEY=YOUR_API_KEY
 uvicorn main:app --reload
 ```
